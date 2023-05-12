@@ -12,3 +12,6 @@ RUN npm install
 
 # Define the entry point for the container
 CMD ["yarn", "start"]
+
+# Exposed dockerfile this tcp port
+EXPOSE 80
