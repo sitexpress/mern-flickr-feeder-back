@@ -14,4 +14,4 @@ RUN npm install
 CMD ["yarn", "start"]
 
 # Exposed dockerfile this tcp port
-EXPOSE 80
+EXPOSE 3333
