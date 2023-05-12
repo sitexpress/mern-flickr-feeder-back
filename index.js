@@ -37,7 +37,7 @@ index.post('/photo', (req, res) => {
         })
 })
 
-index.listen(3333, (err) => {
+index.listen(process.env.PORT || 3333, (err) => {
     if(err) {
         return console.log(err)
     }
